@@ -11,7 +11,7 @@ npm install --save ajna3
 ```js
 import { Ajna } from "ajna3";
 
-export default class Ajna.Element() {
+export default class AjnaButton extends Ajna.Element() {
   constructor () {
     super();
   }
